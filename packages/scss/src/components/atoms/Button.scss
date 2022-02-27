@@ -1,3 +1,10 @@
-button {
-  background: orange;
+@import "abstracts/all";
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: $secondary-2;
+  color: $auxiliary-3;
 }

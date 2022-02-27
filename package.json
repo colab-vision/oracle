@@ -10,7 +10,8 @@
   },
   "workspaces": {
     "packages": [
-      "packages/*"
+      "packages/*",
+      "examples/*"
     ],
     "nohoist": [
       "**/normalize-scss"
