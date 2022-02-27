@@ -32,13 +32,13 @@
   --oracle-md: #{$fs-md};
   --oracle-lg: #{$fs-lg};
   --oracle-xl: #{$fs-xl};
-  --oracle-xxl: #{$fs-xxl};
-  --oracle-xxxl: #{$fs-xxxl};
+  --oracle-xxl: #{$fs-2xl};
+  --oracle-xxxl: #{$fs-3xl};
 
   /*
   * font weights
   */
-  --oracle-regular: #{$fs-regular};
-  --oracle-medium: #{$fs-medium};
-  --oracle-bold: #{$fs-bold};
+  --oracle-regular: #{$regular};
+  --oracle-medium: #{$medium};
+  --oracle-bold: #{$bold};
 }
