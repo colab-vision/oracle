@@ -1,12 +1,35 @@
 const fs = require("fs");
-const path = require("path");
-const sass = require("node-sass");
+const nodePath = require("path");
+const nodeSass = require("node-sass");
 
-const result = sass.renderSync({
-  data: fs.readFileSync(path.resolve("src/main.scss")).toString(),
-  outputStyle: "compressed",
-  outFile: "main.css",
-  includePaths: [path.resolve("src")],
-});
+const getComponents = () => {
+  let components = [];
 
-fs.writeFileSync(path.resolve("src/lib/main.css"), result.css.toString());
+  const types = ["atoms", "molecules", "organisms", "pages"];
+
+  types.forEach((type) => {
+    const files = fs.readdirSync(`src/components/${type}`).map((file) => ({
+      input: `src/components/${type}/${file}`,
+      output: `src/lib/${file.slice(0, -4) + "css"}`,
+    }));
+
+    components = [...components, ...files];
+  });
+
+  return components;
+};
+
+const compile = (path, filename) => {
+  const result = nodeSass.renderSync({
+    data: fs.readFileSync(nodePath.resolve(path)).toString(),
+    outputStyle: "compressed",
+    outFile: "main.css",
+    includePaths: [nodePath.resolve("src")],
+  });
+
+  fs.writeFileSync(nodePath.resolve(filename), result.css.toString());
+};
+
+getComponents().map((component) => compile(component.input, component.output));
+
+console.log(getComponents());
