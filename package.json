@@ -6,7 +6,8 @@
   "author": "makaya2afonso <makaya2afonso@gmail.com>",
   "private": true,
   "scripts": {
-    "build": "yarn lerna run build"
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev"
   },
   "workspaces": {
     "packages": [

@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "main": "lib/index.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "dev": "yarn build --watch"
   },
   "devDependencies": {
     "@types/react": "^17.0.39",
