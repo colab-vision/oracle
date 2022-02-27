@@ -1,0 +1,73 @@
+/*
+ * Color
+*/
+$gray-5: #282a36;
+$gray-4: #696977;
+$gray-3: #aeaeba;
+$gray-2: #d6d6de;
+$gray-1: #ecedf2;
+$gray-0: #f8f8f2;
+
+$primary-3: #cc9356;
+$primary-2: #e6a661;
+$primary-1: #ffb86c;
+$primary-0: #ffbf7b;
+
+$secondary-3: #44475a;
+$secondary-2: #6272a4;
+$secondary-1: #7280ad;
+$secondary-0: #818eb6;
+
+$auxiliary-3: #fff;
+$auxiliary-2: #ffc271;
+$auxiliary-1: #27ae60;
+$auxiliary-0: #e06667;
+
+/*
+ * font families
+*/
+$default: "Roboto", sans-serif;
+$code: "Fira code", monospace;
+
+/*
+ * font sizes
+*/
+$fs-xs: 0.64rem;
+$fs-sm: 0.8rem;
+$fs-md: 1rem;
+$fs-lg: 1.563rem;
+$fs-xl: 1.953rem;
+$fs-2xl: 2.441rem;
+$fs-3xl: 3.052rem;
+
+/*
+ * font weights
+*/
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
+/*
+ * break points
+*/
+$breakpoints: (
+  xm: 30rem,
+  md: 48rem,
+  lg: 64rem,
+  xl: 80rem,
+);
+
+/*
+ * spacing
+*/
+$spacing: (
+  xxxs: 0.25rem,
+  xxs: 0.5rem,
+  xs: 0.75rem,
+  sm: 1rem,
+  md: 1.5rem,
+  lg: 2rem,
+  xl: 3rem,
+  xxl: 4.5rem,
+  xxxl: 6rem,
+) !default;

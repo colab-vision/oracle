@@ -1,19 +1,22 @@
 {
-  "name": "@vision/oracle",
+  "name": "@oracle/core",
   "description": "Vision Design System",
   "version": "0.0.0",
   "repository": "https://github.com/colab-vision/oracle",
   "author": "makaya2afonso <makaya2afonso@gmail.com>",
   "private": true,
   "scripts": {
-    "prepare": "husky install"
+    "build": "yarn lerna run build"
   },
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/normalize-scss"
+    ]
   },
   "devDependencies": {
-    "husky": "^7.0.4",
-    "lint-staged": "^12.3.4",
-    "prettier": "2.5.1"
+    "lerna": "^4.0.0"
   }
 }

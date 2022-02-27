@@ -1,0 +1,17 @@
+/*
+ * font sizes
+*/
+$xs: var(--oracle-xs, $fs-xs) !default;
+$sm: var(--oracle-sm, $fs-sm) !default;
+$md: var(--oracle-md, $fs-md) !default;
+$lg: var(--oracle-lg, $fs-lg) !default;
+$xl: var(--oracle-xl, $fs-xl) !default;
+$xxl: var(--oracle-xxl, $fs-xxl) !default;
+$xxxl: var(--oracle-xxxl, $fs-xxxl) !default;
+
+/*
+ * font weights
+*/
+$regular: var(--oracle-regular, $regular) !default;
+$medium: var(--oracle-medium, $medium) !default;
+$bold: var(--oracle-bold, $bold) !default;

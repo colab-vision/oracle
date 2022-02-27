@@ -1,0 +1,21 @@
+$gray-900: var(--oracle-gray-900, $gray-5) !default;
+$gray-700: var(--oracle-gray-700, $gray-4) !default;
+$gray-500: var(--oracle-gray-500, $gray-3) !default;
+$gray-300: var(--oracle-gray-300, $gray-2) !default;
+$gray-100: var(--oracle-gray-100, $gray-1) !default;
+$gray-50: var(--oracle-gray-50, $gray-0) !default;
+
+$primary-900: var(--oracle-primary-900, $primary-3) !default;
+$primary-700: var(--oracle-primary-700, $primary-2) !default;
+$primary-500: var(--oracle-primary-500, $primary-1) !default;
+$primary-300: var(--oracle-primary-300, $primary-0) !default;
+
+$secondary-900: var(--oracle-secondary-900, $secondary-3) !default;
+$secondary-700: var(--oracle-secondary-700, $secondary-2) !default;
+$secondary-500: var(--oracle-secondary-500, $secondary-1) !default;
+$secondary-300: var(--oracle-secondary-300, $secondary-0) !default;
+
+$white: var(--oracle-white, $auxiliary-3) !default;
+$warning: var(--oracle-warning, $auxiliary-2) !default;
+$success: var(--oracle-success, $auxiliary-1) !default;
+$danger: var(--oracle-danger, $auxiliary-0) !default;

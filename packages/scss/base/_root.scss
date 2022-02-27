@@ -1,0 +1,44 @@
+:root {
+  /*
+  * colors
+  */
+  --oracle-gray-900: #{$gray-5};
+  --oracle-gray-700: #{$gray-4};
+  --oracle-gray-500: #{$gray-3};
+  --oracle-gray-300: #{$gray-2};
+  --oracle-gray-100: #{$gray-1};
+  --oracle-gray-50: #{$gray-0};
+
+  --oracle-primary-900: #{$primary-3};
+  --oracle-primary-700: #{$primary-2};
+  --oracle-primary-500: #{$primary-1};
+  --oracle-primary-300: #{$primary-0};
+
+  --oracle-secondary-900: #{$secondary-3};
+  --oracle-secondary-700: #{$secondary-2};
+  --oracle-secondary-500: #{$secondary-1};
+  --oracle-secondary-300: #{$secondary-0};
+
+  --oracle-danger: #{$auxiliary-0};
+  --oracle-success: #{$auxiliary-1};
+  --oracle-warning: #{$auxiliary-2};
+  --oracle-white: #{$auxiliary-3};
+
+  /*
+  * font sizes
+  */
+  --oracle-xs: #{$fs-xs};
+  --oracle-sm: #{$fs-sm};
+  --oracle-md: #{$fs-md};
+  --oracle-lg: #{$fs-lg};
+  --oracle-xl: #{$fs-xl};
+  --oracle-xxl: #{$fs-xxl};
+  --oracle-xxxl: #{$fs-xxxl};
+
+  /*
+  * font weights
+  */
+  --oracle-regular: #{$fs-regular};
+  --oracle-medium: #{$fs-medium};
+  --oracle-bold: #{$fs-bold};
+}
