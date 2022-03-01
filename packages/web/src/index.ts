@@ -1,1 +1,3 @@
-export { Button } from "./components/atoms";
+import { Button } from "./components/atoms";
+
+export { Button };

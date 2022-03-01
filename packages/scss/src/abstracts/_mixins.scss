@@ -29,3 +29,23 @@
 @mixin margin($space) {
   margin: map-get($spacing, $space);
 }
+
+@mixin accessibility() {
+  &:hover {
+    filter: brightness(0.8);
+  }
+
+  &:focus-visible {
+    outline: none;
+    border: 2px dashed $gray-3;
+    filter: brightness(0.8);
+  }
+
+  &:active {
+    filter: brightness(0.8);
+  }
+
+  &:focus:not(:focus-visible) {
+    border: none;
+  }
+}

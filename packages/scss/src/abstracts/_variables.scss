@@ -1,11 +1,12 @@
 /*
  * Color
 */
-$gray-5: #282a36;
-$gray-4: #696977;
+
+$gray-5: #454545;
+$gray-4: #f8f8f21a;
 $gray-3: #aeaeba;
 $gray-2: #d6d6de;
-$gray-1: #ecedf2;
+$gray-1: #e5e8eb;
 $gray-0: #f8f8f2;
 
 $primary-3: #cc9356;
@@ -19,7 +20,7 @@ $secondary-1: #7280ad;
 $secondary-0: #818eb6;
 
 $auxiliary-3: #fff;
-$auxiliary-2: #ffc271;
+$auxiliary-2: #65429e;
 $auxiliary-1: #27ae60;
 $auxiliary-0: #e06667;
 
@@ -28,6 +29,12 @@ $auxiliary-0: #e06667;
 */
 $default: "Roboto", sans-serif;
 $code: "Fira code", monospace;
+
+/*
+ * border radius
+*/
+$radius-md: 0.25rem;
+$radius-lg: 64rem;
 
 /*
  * font sizes

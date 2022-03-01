@@ -1,10 +1,32 @@
 @import "abstracts/all";
+@import "base/all";
 
-.btn {
+.oracle-btn {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  cursor: pointer;
+  border: 0;
+  transition: all 150ms ease-in;
 
-  background: $secondary-2;
-  color: $auxiliary-3;
+  background: $secondary-900;
+  color: $white;
+  font-family: $defaultFamily;
+  border-radius: $mdRadius;
+
+  &.md {
+    height: 3rem;
+  }
+
+  &.sm {
+    height: 2.25rem;
+  }
+
+  &.disabled {
+    background: $gray-300;
+    pointer-events: none;
+  }
+
+  @include accessibility();
 }
