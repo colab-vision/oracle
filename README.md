@@ -1,7 +1,7 @@
 ## Oracle
 
 `Important Note`: This is currently very WIP.
-This design system is intended to be opinionated, and focused on the kinds of work that Collab vision does (building application).
+This design system is intended to be opinionated, and focused on the kinds of work that Collab vision - my other appp - does (building application).
 
 ## Purpose
 
