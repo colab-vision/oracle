@@ -8,6 +8,9 @@ This design system is intended to be opinionated, and focused on the kinds of wo
 - Learn about design systems XD.
 - Build a design system focused on accessibility
 
+## Fun fact
+
+In 2020 I was working on a css library called Dracula UI - inspired by the popularity of the dracula ui theme - but after a while the theme creator started a UI project called dracula ui so I had to change the name. I love the simplicity of tailwind and the accessibility of chakra ui, so I started this project by trying to blend the two. I hope to succeed.
 
 ## Examples
 
